@@ -1,7 +1,9 @@
 desc "raw coffee script run"
 task :coffee do	
+
     require "coffee_script"
     puts CoffeeScript.compile File.read "test.coffee"	
+    
 end
 
 desc "run coffee script with tilt"
