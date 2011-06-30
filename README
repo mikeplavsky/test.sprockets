@@ -1,0 +1,1 @@
+TO make coffee-script working on Windows XP you have to set up EXECJS_RUNTIME environment variable to JScript
